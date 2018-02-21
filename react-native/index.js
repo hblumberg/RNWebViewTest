@@ -1,26 +1,21 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, View} from 'react-native';
+import {AppRegistry, WebView} from 'react-native';
 
 class ReactNativeScreen extends React.Component {
     render() {
         return (
-            <View style={styles.container}>
-                <Text style={styles.hello}>Hello, World</Text>
-            </View>
+            <WebView
+                source={{uri: 'http://facebook.github.io/react-native/blog/'}}
+                onScrollChanged={({nativeEvent}) => {
+                    console.log("Scroll changed:");
+                    console.log(nativeEvent.l);
+                    console.log(nativeEvent.t);
+                    console.log(nativeEvent.oldl);
+                    console.log(nativeEvent.oldt);
+                }}
+            />
         );
     }
 }
-
-var styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-    },
-    hello: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    },
-});
 
 AppRegistry.registerComponent('ReactNativeScreen', () => ReactNativeScreen);
