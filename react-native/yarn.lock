@@ -1070,6 +1070,7 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
     to-fast-properties "^1.0.3"
 
 "babylon7@npm:babylon@^7.0.0-beta", babylon@7.0.0-beta.40:
+  name babylon7
   version "7.0.0-beta.40"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.40.tgz#91fc8cd56d5eb98b28e6fde41045f2957779940a"
 
@@ -2973,9 +2974,9 @@ react-devtools-core@3.1.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-"react-native@git+https://github.com/Khan/react-native.git#4a25dd0c834b8eb55ab3fafedbd4dd25d3d05d4e":
+"react-native@git+https://github.com/Khan/react-native.git#2f0102004baa0abdc18de8cdf0155f4769df648e":
   version "1000.0.0"
-  resolved "git+https://github.com/Khan/react-native.git#4a25dd0c834b8eb55ab3fafedbd4dd25d3d05d4e"
+  resolved "git+https://github.com/Khan/react-native.git#2f0102004baa0abdc18de8cdf0155f4769df648e"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
