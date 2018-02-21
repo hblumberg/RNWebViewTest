@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "port": "node node_modules/react-native/local-cli/cli.js start --port 8881"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "git+https://github.com/Khan/react-native.git#a0ecc046647f96777351c9250c572c54212969db"
+  }
+}

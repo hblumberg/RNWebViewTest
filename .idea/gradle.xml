@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/react-native/node_modules/react-native/ReactAndroid" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
